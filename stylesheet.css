@@ -1,0 +1,87 @@
+* {
+  background-color: gray;
+  font-family: "Inconsolata", monospace;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+#container {
+  text-align: center;
+}
+
+#display {
+  color: white;
+  background-color: #5a5a5a;
+  display: inline-block;
+  width: 198px;
+  padding-top: 20px;
+  height: 50px;
+  font-size: 32px;
+}
+
+.button {
+  font-size: 20px;
+  padding: 10px;
+  margin: 0;
+  background-color: #808080;
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: #acacac;
+}
+
+#zero,
+#clear {
+  width: 100px;
+}
+
+#one,
+#two,
+#three {
+  position: relative;
+  right: 25px;
+}
+
+#clear {
+  background-color: red;
+}
+
+#clear:hover {
+  background-color: #ff4d4d;
+}
+
+#equals {
+  height: 100px;
+  position: relative;
+  top: -50px;
+}
+
+#zero,
+#decimal {
+  position: relative;
+  margin: 0px;
+  top: -25px;
+}
+
+#subtract,
+#divide,
+#multiply,
+#add,
+#equals {
+  background-color: #333333;
+}
+
+
+#subtract:hover,
+#divide:hover,
+#multiply:hover,
+#add:hover,
+#equals:hover {
+  background-color: #595959;
+}
