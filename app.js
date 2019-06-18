@@ -145,7 +145,7 @@ var Calculator = function (_React$Component3) {
         if (formula[formula.length - 1] == ".") this.setState({ formula: formula });else {
           // doesn't allow multiple decimal points in one number
           // splits the formula based on operands
-          var formulaNumbers = formula.split(/\+|\-|\/|\*/);
+          var formulaNumbers = formula.toString().split(/\+|\-|\/|\*/);
           // last entered number already has a decimal point
           if (formulaNumbers[formulaNumbers.length - 1].indexOf(".") !== -1) {
             // don't allow change
