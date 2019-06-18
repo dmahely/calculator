@@ -15,7 +15,13 @@ class DisplayBox extends React.Component {
   render() {
     const formula = this.props.formula;
     const result = this.props.result;
-    return <span id="display">{formula}</span>;
+    return (
+    <div id="display-container">
+      <span id="display">
+      {formula}
+      </span>
+    </div>
+    );
   }
 }
 

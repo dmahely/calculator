@@ -51,9 +51,13 @@ var DisplayBox = function (_React$Component2) {
       var formula = this.props.formula;
       var result = this.props.result;
       return React.createElement(
-        "span",
-        { id: "display" },
-        formula
+        "div",
+        { id: "display-container" },
+        React.createElement(
+          "span",
+          { id: "display" },
+          formula
+        )
       );
     }
   }]);
